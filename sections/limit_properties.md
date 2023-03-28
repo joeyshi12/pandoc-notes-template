@@ -4,7 +4,6 @@
 Let $\{x_n\}$ and $\{y_n\}$ be convergent sequences,
 such that $x_n < y_n$ for any $n\in\mathbb{N}$.
 Then, $\lim_{n\to\infty} x_n \leq \lim_{n\to\infty} y_n$.
-\end{proposition}
 
 ## Proof
 Let $\{x_n\}$, $\{y_n\}$ be sequences,
