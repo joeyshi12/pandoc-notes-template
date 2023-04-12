@@ -3,7 +3,8 @@ outdir = out
 flags = -s --toc
 sections = $(srcdir)/isomorphism.md \
 		   $(srcdir)/limit_properties.md \
-		   $(srcdir)/happy_number.md
+		   $(srcdir)/happy_number.md \
+		   $(srcdir)/eulerian_graphs.md \
 
 all: header.md $(sections)
 	mkdir -p $(outdir)

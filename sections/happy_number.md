@@ -26,3 +26,18 @@ A happy number `n` is defined by the process:
 2^2 + 0^2 = 4
 ```
 
+The following function verifies if a number is happy:
+```python
+def is_happy(num: int):
+    visited = Set()
+
+    def _is_happy(num: int):
+        if num == 1:
+            return True
+        if num in visited:
+            return False
+        return _is_happy(sum(int(c)**2 for c in str(num)))
+
+    return _is_happy(num)
+```
+
